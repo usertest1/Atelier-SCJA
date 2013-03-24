@@ -5,7 +5,9 @@ if()
 
 if(ags[0]=='-a')
 {
-
+a=intpares(ags[1]);
+a=intpares(ags[2]);
+System.out.println("%d + %d = %d",a,b,a+b);
 }
 
 
